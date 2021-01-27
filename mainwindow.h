@@ -72,6 +72,7 @@ private slots:
     void deletefindstu();
     void receivelogin();
     void onlyleftout();
+    void batchAddForCSV();
 private:
     Ui::MainWindow *ui;
 };

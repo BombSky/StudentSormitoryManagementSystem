@@ -137,14 +137,14 @@ void MainWindow::addormFindList()
     {
         query->record();
 //        ui->addormTableWidget->insertRow  (rowcount);
-        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 0, new QTableWidgetItem(g_CHBuildingno[query->value(rec.indexOf(  "buildingno"        )).toInt()]));
-        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 1, new QTableWidgetItem(g_CHFloor[query->value(rec.indexOf(  "floor"             )).toInt()]));
-        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 2, new QTableWidgetItem(query->value(rec.indexOf(  "campus"            )).toString()));
-        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 3, new QTableWidgetItem(query->value(rec.indexOf(  "department"        )).toString()));
-        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 4, new QTableWidgetItem(g_CHDormitorylevel[query->value(rec.indexOf(  "dormitorylevel"    )).toInt()]));
-        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 5, new QTableWidgetItem(query->value(rec.indexOf(  "dormitoryno"       )).toString()));
-        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 6, new QTableWidgetItem(g_CHBedno[query->value(rec.indexOf(  "bedno"             )).toInt()]));
-        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 7, new QTableWidgetItem(g_CHSex[query->value(rec.indexOf(  "sex"               )).toInt()]));
+        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 0, new QTableWidgetItem(g_CHBuildingno       [query->value(rec.indexOf(  "buildingno"        )).toInt   ()]));
+        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 1, new QTableWidgetItem(g_CHFloor            [query->value(rec.indexOf(  "floor"             )).toInt   ()]));
+        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 2, new QTableWidgetItem(                      query->value(rec.indexOf(  "campus"            )).toString()));
+        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 3, new QTableWidgetItem(                      query->value(rec.indexOf(  "department"        )).toString()));
+        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 4, new QTableWidgetItem(g_CHDormitorylevel   [query->value(rec.indexOf(  "dormitorylevel"    )).toInt   ()]));
+        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 5, new QTableWidgetItem(                      query->value(rec.indexOf(  "dormitoryno"       )).toString()));
+        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 6, new QTableWidgetItem(g_CHBedno            [query->value(rec.indexOf(  "bedno"             )).toInt   ()]));
+        ui->addormTableWidget->setItem(g_rowCountForAddormTableWidget, 7, new QTableWidgetItem(g_CHSex              [query->value(rec.indexOf(  "sex"               )).toInt   ()]));
         g_rowCountForAddormTableWidget++;
     }
     g_rowCountForAddormTableWidget = 0;

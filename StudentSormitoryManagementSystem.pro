@@ -27,6 +27,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         add.cpp \
         addorm.cpp \
+        batchAdd.cpp \
         deletestu.cpp \
         dialog.cpp \
         find.cpp \
