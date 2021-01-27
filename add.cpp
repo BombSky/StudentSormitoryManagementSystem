@@ -119,7 +119,7 @@ void MainWindow::selectDormitoryno()
         ui->addTableWidget->setItem(g_rowCountForAddTableWidget, 3, new QTableWidgetItem(g_CHBuildingno     [query->value(rec.indexOf("buildingno"    )).toInt  ()]));
         ui->addTableWidget->setItem(g_rowCountForAddTableWidget, 4, new QTableWidgetItem(g_CHFloor          [query->value(rec.indexOf("floor"         )).toInt  ()]));
         ui->addTableWidget->setItem(g_rowCountForAddTableWidget, 5, new QTableWidgetItem(                    query->value(rec.indexOf("dormitoryno"   )).toString()));
-        ui->addTableWidget->setItem(g_rowCountForAddTableWidget, 6, new QTableWidgetItem(g_CHBedno[          query->value(rec.indexOf("bedno"         )).toInt()]));
+        ui->addTableWidget->setItem(g_rowCountForAddTableWidget, 6, new QTableWidgetItem(g_CHBedno          [query->value(rec.indexOf("bedno"         )).toInt  ()]));
         ui->addTableWidget->setItem(g_rowCountForAddTableWidget, 7, new QTableWidgetItem(g_CHDormitorylevel [query->value(rec.indexOf("dormitorylevel")).toInt  ()]));
         ui->addTableWidget->setItem(g_rowCountForAddTableWidget, 8, new QTableWidgetItem(query->value(rec.indexOf(  "stunameber"  )).toString()));
         //学生表的内容

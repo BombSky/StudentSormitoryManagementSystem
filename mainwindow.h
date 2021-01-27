@@ -43,11 +43,11 @@ public:
     void addNullItemForAddTableWidget();
     int g_rowCountForAddTableWidget     = 0;
     int g_rowCountForFindTableWidget    = 0;
-    QString g_CHSex           [3 ]  = {"","男", "女"};
-    QString g_CHBuildingno    [15]  = {"","一栋","二栋","三栋","四栋","五栋","六栋","七栋","八栋","九栋","十栋","十一栋","十二栋","十三栋","十四栋"};
-    QString g_CHFloor         [8 ]  = {"","一楼","二楼","三楼","四楼","五楼","六楼","七楼"};
-    QString g_CHDormitorylevel[3 ]  = {"","一级宿舍","二级宿舍"};
-    QString g_CHBedno         [9 ]  = {"","1号铺","2号铺","3号铺","4号铺","5号铺","6号铺","7号铺","8号铺"};
+    const char* g_CHSex           [3 ]  = {"","男", "女"};
+    const char* g_CHBuildingno    [15]  = {"","一栋","二栋","三栋","四栋","五栋","六栋","七栋","八栋","九栋","十栋","十一栋","十二栋","十三栋","十四栋"};
+    const char* g_CHFloor         [8 ]  = {"","一楼","二楼","三楼","四楼","五楼","六楼","七楼"};
+    const char* g_CHDormitorylevel[3 ]  = {"","一级宿舍","二级宿舍"};
+    const char* g_CHBedno         [9 ]  = {"","1号铺","2号铺","3号铺","4号铺","5号铺","6号铺","7号铺","8号铺"};
     //addorm.h
     void setAddormWidget();
     void checkout(QString *stuno);

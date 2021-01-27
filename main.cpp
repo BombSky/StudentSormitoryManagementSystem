@@ -9,10 +9,10 @@ int main(int argc, char *argv[])
 //    loginfun();
     Dialog s;
     w.setWindowTitle("宿舍管理系统");
-    s.show();
+//    s.show();
     QObject::connect(&s,SIGNAL(showmain()),&w,SLOT(receivelogin()));
 //    QApplication::addLibraryPath("./plugins");
-//    w.show();
+    w.show();
     return a.exec();
 }
 
